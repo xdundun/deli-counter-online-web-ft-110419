@@ -22,5 +22,14 @@ def take_a_number(people, name)
   elsif people.size > 0
     people.push(name)
     puts "Welcome, #{name}. You are number #{people.size} in line."
+  end
 end
-end
+
+def not_serving(people)
+  if people.size == 0
+    puts "There is nobody waiting to be served!"
+  elsif people.size > 0
+    people.shift()
+    puts "Current serving #{people[0]}"
+  end
+  
