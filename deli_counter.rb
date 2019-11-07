@@ -25,7 +25,7 @@ def take_a_number(people, name)
   end
 end
 
-def not_serving(people)
+def now_serving(people)
   if people.size == 0
     puts "There is nobody waiting to be served!"
   elsif people.size > 0
