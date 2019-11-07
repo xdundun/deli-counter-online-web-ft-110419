@@ -29,6 +29,6 @@ def not_serving(people)
   if people.size == 0
     puts "There is nobody waiting to be served!"
   elsif people.size > 0
-    people.shift()
     puts "Current serving #{people[0]}"
+    people.shift()
   end
