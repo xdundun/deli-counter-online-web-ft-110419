@@ -32,3 +32,4 @@ def not_serving(people)
     puts "Current serving #{people[0]}"
     people.shift()
   end
+end
